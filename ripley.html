@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ripley. Python Package Info</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./ripley_favicon.png">
+    <link rel="stylesheet" href="bulma.min.css">
+    <style>
+        .articles .content p {
+            line-height: 1.9;
+            margin: 15px 0;
+        }
+        .author-image {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            width: 60px;
+            height: 60px;
+            margin-left: -30px;
+            border: 3px solid #ccc;
+            border-radius: 50%;
+        }
+        .article-title {
+          font-size: 2rem;
+          font-weight: lighter;
+          line-height: 2;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <section class="articles" style="margin: 2rem 0;">
+        <div class="column is-8 is-offset-2">
+            <div class="card article">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-center">
+                            <a href="https://en.wikipedia.org/wiki/Ellen_Ripley" target="_blank">
+                                <img src="./ripley.jpg" class="author-image" alt="ripley">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <article class="message">
+                            <div class="message-body">
+                                Final report of the commercial starship «Nostromo», third officer reporting. The other
+                                members of the crew — Kane,
+                                Lambert, Parker, Brett, Ash and Captain Dallas — are dead. Cargo and ship destroyed. I
+                                should reach the frontier in
+                                about six weeks. With a little luck, the network will pick me up. This is Ripley, last
+                                survivor of the «Nostromo», signing off. <br/>[To <a style="color: var(--bulma-link-text);" href="https://en.wikipedia.org/wiki/Jones_(fictional_cat)" target="_blank">Jones</a>, the ship's cat] Come on, cat.
+                            </div>
+                        </article>
+                        <p class="subtitle is-6 article-subtitle has-text-centered">
+                            <a href="https://en.wikipedia.org/wiki/Ellen_Ripley" target="_blank">© Lieutenant Ellen Ripley</a> on 2122
+                        </p>
+                        <p class="title article-title has-text-centered">📦 Package Info 📦</p>
+                        <span class="subtitle is-6 has-text-grey">
+                            Package provides a simple interface for routine db operations and data maintenance
+                        </span>
+                        <table class="table" style="width: 100%">
+                            <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Version</td>
+                                <td class="field is-grouped is-grouped-multiline">
+                                    <div class="control">
+                                        <a href="https://pypi.org/project/ripley/" target="_blank">
+                                            <img src="https://img.shields.io/pypi/v/ripley.svg?logo=pypi&logoColor=FFE200" alt="pypi"/>
+                                        </a>
+                                    </div>
+                                    <a class="tag is-primary" href="https://github.com/d-ganchar/ripley/releases" target="_blank">Releases</a>
+                                    <a class="tag is-primary" href="https://github.com/d-ganchar/ripley/actions?query=event%3Arelease" target="_blank">Release Workflows</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Docs</td>
+                                <td class="field is-grouped is-grouped-multiline">
+                                    <div class="control">
+                                        <a href="https://github.com/d-ganchar/ripley/wiki" target="_blank">
+                                            <div class="tags has-addons">
+                                                <span class="tag is-dark">GitHub</span>
+                                                <span class="tag is-info">Wiki</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>DB</td>
+                                <td class="field is-grouped is-grouped-multiline">
+                                    <a class="tag is-warning" href="https://clickhouse.com/" target="_blank">Clickhouse</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Tested On</td>
+                                <td>
+                                    <div class="field is-grouped is-grouped-multiline">
+                                        <div class="control">
+                                            <a href="https://hub.docker.com/r/minio/minio" target="_blank">
+                                                <div class="tags has-addons">
+                                                  <span class="tag is-dark">Docker</span>
+                                                  <span class="tag is-danger">Minio</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="control">
+                                            <a href="https://hub.docker.com/r/clickhouse/clickhouse-server/tags" target="_blank">
+                                                <div class="tags has-addons">
+                                                  <span class="tag is-dark">Docker</span>
+                                                  <span class="tag is-warning">Clickhouse</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <a class="tag is-info" href="https://pypi.org/project/clickhouse-driver/" target="_blank">clickhouse-driver</a>
+                                        <a class="tag is-info" href="https://pypi.org/project/boto3/" target="_blank">boto3</a>
+                                        <a href="https://github.com/d-ganchar/ripley/blob/main/.github/workflows/ci_cd.yml" target="_blank">
+                                            <img src="https://img.shields.io/pypi/pyversions/ripley.svg?logo=python&logoColor=81B441" alt="py_version"/>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Downloads</td>
+                                <td class="field is-grouped is-grouped-multiline">
+                                    <a href="https://www.pepy.tech/projects/ripley" target="_blank">
+                                        <img src="https://static.pepy.tech/badge/ripley" alt="total downloads"/>
+                                    </a>
+                                    <a href="https://www.pepy.tech/projects/ripley" target="_blank">
+                                        <img src="https://img.shields.io/pypi/dm/ripley.svg?logo=docusign&logoColor=FFE200" alt="monthly downloads"/>
+                                    </a>
+                                    <a href="https://github.com/d-ganchar/ripley/tree/main/ripley" target="_blank">
+                                        <img src="https://img.shields.io/github/languages/code-size/d-ganchar/ripley.svg?logo=Dropbox&logoColor=ACD2F6" alt="pkg size"/>
+                                    </a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Created</strong> using <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+      The source code is licensed
+      <a href="https://opensource.org/license/mit" target="_blank">MIT</a>.
+    </p>
+  </div>
+</footer>
+</body>
+</html>
